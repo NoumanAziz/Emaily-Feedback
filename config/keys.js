@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV === 'production'){
-    //we are in production mode
-    module.export = require('./prod');
+   
+    module.exports = require('./prod');
 } else {
-    //we are in development mode
-   module.export = require('./dev');
+  
+   module.exports = require('./dev');
 }
